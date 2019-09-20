@@ -1,6 +1,7 @@
 #!/bin/bash
 
-clear
+python2 upgan.py
+bersih
 
 trap 'printf "\n";stop' 2
 
